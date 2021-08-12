@@ -26,7 +26,10 @@ class PostDetailTableViewController: UITableViewController {
     }
     
     @IBAction func shareButtonTapped(_ sender: Any) {
-        
+        guard let image = post?.photo,
+              let caption = post?.caption else { return }
+        let sharableObjects = UIActivityViewController(activityItems: [image, caption], applicationActivities: nil)
+        present(sharableObjects, animated: true, completion: nil)
     }
     
     @IBAction func followButtonTapped(_ sender: Any) {
@@ -43,7 +46,7 @@ class PostDetailTableViewController: UITableViewController {
         alertController.addTextField { textField in
             textField.placeholder = "Your comment goes here"
             textField.autocorrectionType = .yes
-            textField.autocapitalizationType = .none
+            textField.autocapitalizationType = .sentences
         }
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)

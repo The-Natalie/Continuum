@@ -15,6 +15,8 @@
 		E04C4BB626C317E1002069A2 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04C4BB526C317E1002069A2 /* PostController.swift */; };
 		E04C4BB826C318BD002069A2 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04C4BB726C318BD002069A2 /* PostError.swift */; };
 		E04C4BBB26C31B81002069A2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04C4BBA26C31B81002069A2 /* PostTableViewCell.swift */; };
+		E0FD3A2726C4651600705A7D /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD3A2626C4651600705A7D /* SearchableRecord.swift */; };
+		E0FD3A2926C48CF400705A7D /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD3A2826C48CF400705A7D /* PhotoSelectorViewController.swift */; };
 		E0FDDB3F26C38B720035D320 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FDDB3E26C38B720035D320 /* DateExtension.swift */; };
 		F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F99C382211F96400D13C4C /* AppDelegate.swift */; };
 		F7F99C3E2211F96400D13C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3C2211F96400D13C4C /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		E04C4BB526C317E1002069A2 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		E04C4BB726C318BD002069A2 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
 		E04C4BBA26C31B81002069A2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		E0FD3A2626C4651600705A7D /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
+		E0FD3A2826C48CF400705A7D /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
 		E0FDDB3E26C38B720035D320 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		F7F99C352211F96400D13C4C /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F99C382211F96400D13C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 			children = (
 				E04C4BB726C318BD002069A2 /* PostError.swift */,
 				E0FDDB3E26C38B720035D320 /* DateExtension.swift */,
+				E0FD3A2626C4651600705A7D /* SearchableRecord.swift */,
 			);
 			path = "Helpers+Extensions";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 				E04C4BAB26C31043002069A2 /* PostListTableViewController.swift */,
 				E04C4BAD26C31107002069A2 /* PostDetailTableViewController.swift */,
 				E04C4BAF26C3116F002069A2 /* AddPostTableViewController.swift */,
+				E0FD3A2826C48CF400705A7D /* PhotoSelectorViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -238,10 +244,12 @@
 				E04C4BB826C318BD002069A2 /* PostError.swift in Sources */,
 				E04C4BAC26C31043002069A2 /* PostListTableViewController.swift in Sources */,
 				E04C4BB026C3116F002069A2 /* AddPostTableViewController.swift in Sources */,
+				E0FD3A2926C48CF400705A7D /* PhotoSelectorViewController.swift in Sources */,
 				E04C4BB626C317E1002069A2 /* PostController.swift in Sources */,
 				E04C4BAE26C31107002069A2 /* PostDetailTableViewController.swift in Sources */,
 				E04C4BB226C31290002069A2 /* Post.swift in Sources */,
 				E04C4BBB26C31B81002069A2 /* PostTableViewCell.swift in Sources */,
+				E0FD3A2726C4651600705A7D /* SearchableRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
